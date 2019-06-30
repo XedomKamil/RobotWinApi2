@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Evocortex\libirimager.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Evocortex\libirimager.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4" Version="4.1.0.20190416" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.1.0.20190416" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OpenCvSharp">
+      <HintPath>C:\Users\lamko\Desktop\C#\program\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\OpenCvSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Blob">
+      <HintPath>C:\Users\lamko\Desktop\C#\program\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\OpenCvSharp.Blob.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Evocortex\libirimagerd.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
