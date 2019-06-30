@@ -1,7 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+  <!--  <TargetFramework>netstandard2.0</TargetFramework> -->
+    <TargetFramework>NET461</TargetFramework>
     <ApplicationIcon />
     <OutputType>Library</OutputType>
     <StartupObject />
@@ -32,6 +33,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ApplicationDefinition Update="C:\Users\lamko\.nuget\packages\opencvsharp4.runtime.win\4.1.0.20190416\build\net\..\..\runtimes\win-x64\native\OpenCvSharpExtern.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </ApplicationDefinition>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\lamko\.nuget\packages\opencvsharp4.runtime.win\4.1.0.20190416\build\net\..\..\runtimes\win-x86\native\OpenCvSharpExtern.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Evocortex\libirimagerd.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

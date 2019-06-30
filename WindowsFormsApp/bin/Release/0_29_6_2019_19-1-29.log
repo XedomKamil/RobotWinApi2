@@ -1,0 +1,2 @@
+DEBUG [SimpleXML.cpp:220] @ 0.0048744s :Failed to open file 1
+ERROR [IRDeviceParams.cpp:150] @ 0.0050325s :Cannot find configuration file 084305D8 ... aborting

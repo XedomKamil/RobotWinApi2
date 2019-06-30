@@ -1,0 +1,163 @@
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\dll\x86\OpenCvSharpExtern.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\dll\x86\opencv_ffmpeg410.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\dll\x64\OpenCvSharpExtern.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\dll\x64\opencv_ffmpeg410_64.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\WindowsFormsApp.exe.config
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\WindowsFormsApp.exe
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\WindowsFormsApp.pdb
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\Microsoft.Win32.Primitives.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\netstandard.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.AppContext.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Collections.Concurrent.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Collections.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Collections.NonGeneric.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Collections.Specialized.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.ComponentModel.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.ComponentModel.EventBasedAsync.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.ComponentModel.Primitives.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.ComponentModel.TypeConverter.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Console.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Data.Common.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Diagnostics.Contracts.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Diagnostics.Debug.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Diagnostics.FileVersionInfo.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Diagnostics.Process.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Diagnostics.StackTrace.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Diagnostics.Tools.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Diagnostics.TraceSource.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Diagnostics.Tracing.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Drawing.Primitives.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Dynamic.Runtime.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Globalization.Calendars.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Globalization.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Globalization.Extensions.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.Compression.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.Compression.ZipFile.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.FileSystem.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.FileSystem.DriveInfo.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.FileSystem.Primitives.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.FileSystem.Watcher.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.IsolatedStorage.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.MemoryMappedFiles.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.Pipes.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.IO.UnmanagedMemoryStream.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Linq.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Linq.Expressions.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Linq.Parallel.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Linq.Queryable.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.Http.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.NameResolution.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.NetworkInformation.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.Ping.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.Primitives.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.Requests.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.Security.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.Sockets.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.WebHeaderCollection.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.WebSockets.Client.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Net.WebSockets.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.ObjectModel.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Reflection.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Reflection.Extensions.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Reflection.Primitives.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Resources.Reader.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Resources.ResourceManager.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Resources.Writer.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.Extensions.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.Handles.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.InteropServices.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.Numerics.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.Serialization.Formatters.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.Serialization.Json.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.Serialization.Primitives.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Runtime.Serialization.Xml.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Security.Claims.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Security.Cryptography.Algorithms.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Security.Cryptography.Csp.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Security.Cryptography.Encoding.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Security.Cryptography.Primitives.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Security.Cryptography.X509Certificates.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Security.Principal.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Security.SecureString.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Text.Encoding.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Text.Encoding.Extensions.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Text.RegularExpressions.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Threading.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Threading.Overlapped.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Threading.Tasks.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Threading.Tasks.Parallel.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Threading.Thread.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Threading.ThreadPool.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Threading.Timer.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.ValueTuple.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Xml.ReaderWriter.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Xml.XDocument.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Xml.XmlDocument.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Xml.XmlSerializer.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Xml.XPath.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\System.Xml.XPath.XDocument.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\Common.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.Blob.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.Extensions.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.UserInterface.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\Common.pdb
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.pdb
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.xml
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.Blob.pdb
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.Blob.xml
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.Extensions.pdb
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.Extensions.xml
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.UserInterface.pdb
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\OpenCvSharp.UserInterface.xml
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\obj\Release\WindowsApp.csprojAssemblyReference.cache
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\obj\Release\WindowsFormsApp.exe.config
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\obj\Release\WindowsFormsApp.WinAppForm.resources
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\obj\Release\WindowsFormsApp.Properties.Resources.resources
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\obj\Release\WindowsApp.csproj.GenerateResource.cache
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\obj\Release\WindowsApp.csproj.CoreCompileInputs.cache
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\obj\Release\WindowsApp.csproj.CopyComplete
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\obj\Release\WindowsFormsApp.exe
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\obj\Release\WindowsFormsApp.pdb
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\libirimager.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\Evocortex\libirimager.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\Evocortex\libirimagerd.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp\bin\Release\libirimagerd.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\dll\x86\OpenCvSharpExtern.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\dll\x86\opencv_ffmpeg410.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\dll\x64\OpenCvSharpExtern.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\dll\x64\opencv_ffmpeg410_64.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\Evocortex\libirimager.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\Evocortex\libirimagerd.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\libirimager.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\libirimagerd.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\WindowsFormsApp.exe.config
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\WindowsFormsApp.exe
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\WindowsFormsApp.pdb
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\Common.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.Blob.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.Extensions.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.UserInterface.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\Common.pdb
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.pdb
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.xml
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.Blob.pdb
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.Blob.xml
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.Extensions.pdb
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.Extensions.xml
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.UserInterface.pdb
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\bin\Release\OpenCvSharp.UserInterface.xml
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\obj\Release\WindowsApp.csprojAssemblyReference.cache
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\obj\Release\WindowsFormsApp.WinAppForm.resources
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\obj\Release\WindowsFormsApp.Properties.Resources.resources
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\obj\Release\WindowsApp.csproj.GenerateResource.cache
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\obj\Release\WindowsApp.csproj.CoreCompileInputs.cache
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\obj\Release\WindowsApp.csproj.CopyComplete
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\obj\Release\WindowsFormsApp.exe
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\WindowsFormsApp\obj\Release\WindowsFormsApp.pdb

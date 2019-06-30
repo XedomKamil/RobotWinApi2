@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{E6E36F62-4F23-4677-B8DF-237071482D68}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{0E2C73CC-4895-4346-9FBE-866C7D769A51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTest", "CommonTest\CommonTest.csproj", "{47BC8629-CA03-450E-8596-CABADA849B4E}"
@@ -25,7 +23,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "Cons
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GDB", "GDB", "{87EF5A4A-C900-40D2-866E-AEDC304CD52B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPI PROGRAM", "Blink1\Blink1.vcxproj", "{730F368B-5849-4294-904D-D6681F8FE95B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blink1", "Blink1\Blink1.vcxproj", "{730F368B-5849-4294-904D-D6681F8FE95B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,26 +39,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|ARM.Build.0 = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|x64.Build.0 = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Debug|x86.Build.0 = Debug|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|ARM.ActiveCfg = Release|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|ARM.Build.0 = Release|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|ARM64.Build.0 = Release|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|x64.ActiveCfg = Release|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|x64.Build.0 = Release|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|x86.ActiveCfg = Release|Any CPU
-		{E6E36F62-4F23-4677-B8DF-237071482D68}.Release|x86.Build.0 = Release|Any CPU
 		{0E2C73CC-4895-4346-9FBE-866C7D769A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E2C73CC-4895-4346-9FBE-866C7D769A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E2C73CC-4895-4346-9FBE-866C7D769A51}.Debug|ARM.ActiveCfg = Debug|Any CPU

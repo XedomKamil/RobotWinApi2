@@ -1,0 +1,22 @@
+DEBUG [IRDeviceParams.cpp:155] @ 0.0017187s :Parameters
+DEBUG [IRDeviceParams.cpp:156] @ 0.0018072s :serial: 0
+DEBUG [IRDeviceParams.cpp:157] @ 0.0018407s :videoformatindex: 0
+DEBUG [IRDeviceParams.cpp:158] @ 0.001868s :fov: 0
+DEBUG [IRDeviceParams.cpp:159] @ 0.0018941s :optics_text: 00000000
+DEBUG [IRDeviceParams.cpp:160] @ 0.0019194s :formatspath: 06C07078
+DEBUG [IRDeviceParams.cpp:161] @ 0.0019508s :calipath: 00000000
+DEBUG [IRDeviceParams.cpp:162] @ 0.0019772s :temperature min: 0
+DEBUG [IRDeviceParams.cpp:163] @ 0.0020015s :temperature max: 0
+DEBUG [IRDeviceParams.cpp:164] @ 0.0020269s :framerate: 20
+DEBUG [IRDeviceParams.cpp:165] @ 0.0020513s :bispectral: 0
+DEBUG [IRDeviceParams.cpp:166] @ 0.0020754s :average: 0
+DEBUG [IRDeviceParams.cpp:167] @ 0.0023343s :flag automatic: 1
+DEBUG [IRDeviceParams.cpp:168] @ 0.0023589s :min interval: 15
+DEBUG [IRDeviceParams.cpp:169] @ 0.0023757s :max interval: 0
+DEBUG [IRDeviceParams.cpp:170] @ 0.0023913s :chip heating mode: 0
+DEBUG [IRDeviceParams.cpp:171] @ 0.0024089s :chip heating fixed val: 40
+DEBUG [IRDeviceParams.cpp:172] @ 0.0024252s :focus:  50
+DEBUG [IRDeviceParams.cpp:173] @ 0.0024438s :enable extended temp range: 0
+DEBUG [IRDeviceParams.cpp:174] @ 0.0024603s :buffer queue size: 5
+ERROR [IRDeviceDS.cpp:717] @ 0.0163219s :create video graph failed hr=0
+ERROR [DirectBridgeClientUSB.cpp:160] @ 0.0163808s :UVC device with serial 0 could not be found

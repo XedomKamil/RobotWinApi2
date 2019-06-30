@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3274: Nie można rozpoznać odwołania podstawowego „Evocortex.irDirectBinding”, ponieważ utworzono je względem struktury „.NETFramework,Version=v4.6.1”. Ma ona wyższą wersję niż obecna struktura docelowa „.NETFramework,Version=v4.0”.
+  ConsoleApplication1.cpp
+c1xx : warning C4199: dwufazowe wyszukiwanie nazw nie jest obsługiwane w trybie C++/CLI, C++/CX ani OpenMP, użyj wartości /Zc:twoPhase-
+  ConsoleApplication1.obj : Opcja /DEBUG:FASTLINK nie jest obsługiwana, gdy jest obecny kod zarządzany; konsolidacja jest uruchamiana ponownie z opcją /DEBUG:FULL
+  ConsoleApplication1.obj : napotkano modu│ MSIL; konsolidowanie przyrostowe jest wy│╣czone dla modu│ˇw MSIL; zostanie wykonana pe│na konsolidacja
+  ConsoleApplication1.vcxproj -> C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Debug\ConsoleApplication1.exe

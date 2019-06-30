@@ -1,0 +1,22 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: Katalog pośredni (C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\obj\ARM\Release\) zawiera pliki udostępnione z innego projektu (RPI PROGRAM.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
+  Validating sources
+  Copying sources remotely to '192.168.0.248'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  UART.cpp
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(58,6): warning : conversion to 'unsigned char' from 'int' may alter its value [-Wconversion]
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(58,6): warning :   c = dane;
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(58,6): warning :       ^~~~
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(68,24): warning : conversion to 'unsigned char' from 'int' may alter its value [-Wconversion]
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(68,24): warning :   serialPutchar(fd, dane);
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(68,24): warning :                         ^
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(109,20): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(109,20): warning :   if (zn_double = 11)
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(109,20): warning :                     ^
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(82,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(82,1): warning :  }
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\UART.cpp(82,1): warning :  ^
+  Linking objects
+  Blink1.vcxproj -> C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Blink1\bin\ARM\Release\Blink1.out
+  Invoking 'gpio export 17 out', working directory: '/home/pi/projects/Blink1'

@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "zadanie-CMakeProject1",
+      "appliesTo": "CMakeProject1/",
+      "type": "launch"
+    }
+  ]
+}

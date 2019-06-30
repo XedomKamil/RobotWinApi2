@@ -1,0 +1,30 @@
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\bin\Release\netstandard2.0\dll\x86\OpenCvSharpExtern.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\bin\Release\netstandard2.0\dll\x86\opencv_ffmpeg410.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\bin\Release\netstandard2.0\dll\x64\OpenCvSharpExtern.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\bin\Release\netstandard2.0\dll\x64\opencv_ffmpeg410_64.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\bin\Release\netstandard2.0\Common.deps.json
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\bin\Release\netstandard2.0\Common.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\bin\Release\netstandard2.0\Common.pdb
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\obj\Release\netstandard2.0\Common.csprojAssemblyReference.cache
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\obj\Release\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\obj\Release\netstandard2.0\Common.AssemblyInfoInputs.cache
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\obj\Release\netstandard2.0\Common.AssemblyInfo.cs
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\obj\Release\netstandard2.0\Common.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\obj\Release\netstandard2.0\Common.pdb
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\bin\Release\netstandard2.0\Evocortex\libirimager.dll
+E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\Common\bin\Release\netstandard2.0\Evocortex\libirimagerd.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\bin\Release\netstandard2.0\dll\x86\OpenCvSharpExtern.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\bin\Release\netstandard2.0\dll\x86\opencv_ffmpeg410.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\bin\Release\netstandard2.0\dll\x64\OpenCvSharpExtern.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\bin\Release\netstandard2.0\dll\x64\opencv_ffmpeg410_64.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\bin\Release\netstandard2.0\Evocortex\libirimager.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\bin\Release\netstandard2.0\Evocortex\libirimagerd.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\bin\Release\netstandard2.0\Common.deps.json
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\bin\Release\netstandard2.0\Common.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\bin\Release\netstandard2.0\Common.pdb
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\obj\Release\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\obj\Release\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\obj\Release\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\obj\Release\netstandard2.0\Common.dll
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\obj\Release\netstandard2.0\Common.pdb
+C:\Users\lamko\source\RobotWinApi\RobotWinApi2\Common\obj\Release\netstandard2.0\Common.csprojAssemblyReference.cache
