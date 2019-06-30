@@ -78,6 +78,9 @@
     <ClInclude Include="Evocortex\H FIles\version.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -88,6 +91,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\..\..\..\..\Kamerka\libirimager-6.0.3-windows\irDirectSDK\sdk\Win32\libirimager.lib" />
+    <ResourceCompile Include="ConsoleApplication1.rc">
+      <Filter>Pliki zasobów</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libirimager.dll" />
+    <None Include="libirimager.exp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libirimager.lib" />
   </ItemGroup>
 </Project>

@@ -43,13 +43,14 @@ namespace WindowsFormsApp
             // Wyświetlenie przeglądarki
             LoadViewer();
 
-
+            /*
             IrDirectInterface _irDirectInterface;
             _irDirectInterface = IrDirectInterface.Instance;
 
             _irDirectInterface.usb_init("generic.xml", "0", "0");
             _irDirectInterface.daemon_launch();
             _irDirectInterface.SetRadiationParameters(0.88f, 1, 23);
+            */
                // Wyświetlenie w obiekcie comboBox dostępnych dysków
             FileOperations fileOperations = new FileOperations();
             List<DriveInfo> drives = fileOperations.LoadDrives();
