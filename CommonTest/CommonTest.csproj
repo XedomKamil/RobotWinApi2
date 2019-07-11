@@ -50,6 +50,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ReadTime_TEST.cs" />
     <Compile Include="SearchSubDirs.cs" />
     <Compile Include="ReadFileTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -10,6 +10,7 @@ namespace CommonTest
         [TestMethod]
         public void TestMethod1()
         {
+            /*
             // Stwóz
             FileOperations fileOperations = new FileOperations();
             // Przelicz
@@ -20,6 +21,7 @@ namespace CommonTest
             Assert.AreEqual(true, fileOperations.fs.CanRead);
             Console.WriteLine(fileOperations.liczba2.Length);
             fileOperations.fs.Close();
+            */
         }
     }
 }

@@ -1,25 +1,16 @@
 ﻿using Common;
 using Common.irDirectBinding;
 using OpenCvSharp;
-using OpenCvSharp.Extensions;
-using OpenCvSharp.UserInterface;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
 namespace WindowsFormsApp
 {
-  
+
     public partial class WinAppForm : System.Windows.Forms.Form
     {
         // Kolekcja macierzy temperatur
@@ -28,21 +19,36 @@ namespace WindowsFormsApp
         List<Mat> imagesList2 = new List<Mat>();
 
         // Odczytanie ścieżki w której znajduje się plik exe programu 
-        string currentPath = Directory.GetCurrentDirectory();
+        string currentPath;
 
         // Wczytanie ikonek
-        Image imageFolder = WindowsFormsApp.Properties.Resources.folder;
-        Image imageLoading = WindowsFormsApp.Properties.Resources.Loading;
+        Image imageFolder = WindowsFormsApp.Properties.Resources.folder.GetThumbnailImage(120, 90, null, IntPtr.Zero);
+        Image imageLoading = WindowsFormsApp.Properties.Resources.Loading.GetThumbnailImage(120, 90, null, IntPtr.Zero);
 
         int trackbarLastVal = 0;
 
+
+
+        // Wczytanie klas
+        DirOperations dirOperations = new DirOperations();
+        FileOperations fileOperations = new FileOperations();
+        ImageOperations imageOperations = new ImageOperations();
+        TemperatureArrayOperations temperatureArrayOperations =
+            new TemperatureArrayOperations();
+        TempArray2Img tempArray2Img = new TempArray2Img();
+        GUIElements gUIElements = new GUIElements();
+
         public WinAppForm()
         {
-            InitializeComponent();
-            //TestDirectSdk();
-            // Wyświetlenie przeglądarki
-            LoadViewer();
+            currentPath = Directory.GetCurrentDirectory();
+            if (currentPath[currentPath.Length - 1] != '\\')
+            {
+                currentPath += "\\";
+            }
 
+            InitializeComponent();
+
+            #region TEST_IRDIRECT
             /*
             IrDirectInterface _irDirectInterface;
             _irDirectInterface = IrDirectInterface.Instance;
@@ -51,42 +57,41 @@ namespace WindowsFormsApp
             _irDirectInterface.daemon_launch();
             _irDirectInterface.SetRadiationParameters(0.88f, 1, 23);
             */
-               // Wyświetlenie w obiekcie comboBox dostępnych dysków
-            FileOperations fileOperations = new FileOperations();
-            List<DriveInfo> drives = fileOperations.LoadDrives();
+            #endregion
+
+            // Wyświetlenie w obiekcie comboBox dostępnych dysków
+            DirOperations dirOperations = new DirOperations();
+            List<DriveInfo> drives = dirOperations.LoadDrives();
             foreach (var drive in drives)
             {
                 comboBox1.Items.Add(drive);
             }
+
+            // Wyświetlenie przeglądarki
+            LoadViewer();
         }
+
 
         private void LoadViewer()
         {
-            // Wczytanie klas
-            FileOperations fileOperations = new FileOperations();
-            ImageOperations imageOperations = new ImageOperations();
 
-            // Odczyt listy plików
-            List<string> filesList = new List<string>();
-            filesList = fileOperations.SearchFiles(currentPath);
-
-            // Panel pośredni
-            FlowLayoutPanel panel;
 
             // Konfiguracja flowPanelu
             flowLayoutPanelImages.Controls.Clear();
             flowLayoutPanelImages.AutoScroll = true;
             flowLayoutPanelImages.WrapContents = false;
 
+            #region OLD
             // Wyświelenie folderów
-            string[] subDirsList = fileOperations.GetFoldersInDir(currentPath);
+            // string[] subDirsList = dirOperations.GetFoldersInDir(currentPath);
 
             // Console.Write("Ilość subfolderów= ");
             // Console.WriteLine(subDirsList.Length);
-
+            /*
             // Stworzenie pola do rysowania
             foreach (var subDir in subDirsList)
             {   
+                
                 // FOLDERY // FOLDERY // FOLDERY //
 
                 // Ustawienia panelu pośredniego
@@ -116,18 +121,46 @@ namespace WindowsFormsApp
                 // zawierającego foldery oraz pasujące pliki
                 flowLayoutPanelImages.Controls.Add(panel);
 
+
                 // Zdarzenie kliknięcia na pictureBox reprezentującego folder
                 pictureBoxIplSubDir.Click += new EventHandler((senderSubDir, eSubDir) =>
                pictureBoxIplSubDir_Click(senderSubDir, eSubDir, subDir));
 
             }
-            // Wyświelenie folderów koniec
+            */
+            #endregion
+
+            // Przypisanie obrazka folderu do PictureBoxa
+            gUIElements.createFolderElements(currentPath, imageFolder);
+
+            for (int i = 0; i < gUIElements.dirPanels.Count; i++)
+            {
+                Console.WriteLine(i);
+                flowLayoutPanelImages.Controls.Add(gUIElements.dirPanels[i]);
+
+                gUIElements.pictureBoxesIplSubDir[i].Click += new EventHandler((senderSubDir, eSubDir) =>
+               pictureBoxIplSubDir_Click(senderSubDir, eSubDir, gUIElements.dirPaths[i], gUIElements));
+            }
 
 
+            // Odczyt listy plików
+            List<string> filesList = new List<string>();
+            filesList = dirOperations.SearchFiles(currentPath);
+            gUIElements.createFilesElements(filesList, imageFolder, pictureBoxIpl1);
 
-
-
-
+            for (int i = 0; i < gUIElements.imagesPanels.Count; i++)
+            {
+                Console.WriteLine(i);
+                flowLayoutPanelImages.Controls.Add(gUIElements.imagesPanels[i]);
+                // Obsługa zdarzenia kliknięcia na pole rysowania obrazu
+                gUIElements.imagePictureBoxesIpl[i].Click += new EventHandler((sender2, e2) =>
+                   pictureBoxIpll_Click2(sender2, e2, gUIElements.imagesPaths[i - 1], imageOperations, gUIElements));
+                // Obsługa zdarzenia przesunięcia trackbara
+                trackbarWithLabel1.Trackbar.ValueChanged += new EventHandler((sender, e) =>
+                TrackBar1_ValueChanged(sender, e, gUIElements));
+            }
+            #region OLD
+            /*
             // Wyświetlenie plików temperaturowych
             foreach (var filePath in filesList)
             {
@@ -143,11 +176,10 @@ namespace WindowsFormsApp
                     // dostępnej w polu fileOperations.liczba2
                     fileOperations.OperationsOnReadedFile(imagesString[0]);
                     // Znalezienie max i min temperatur dostępnych w polach imageOperations.minT/maxT
-                    imageOperations.FindMinMaxTemp(fileOperations.liczba2);
-                    // Utworzenie obrazu w odcieniach szarości z uwzględnieniem min i max T
-                    imageOperations.CreateImageScalable(fileOperations.liczba2, imageOperations.minT, imageOperations.maxT);
-                    // Utworzenie obrazu kolorowego
-                    imageOperations.CreatePseudoColorImage();
+                    temperatureArrayOperations.FindMinMaxTemp(fileOperations.tempArrayDouble);
+                    // Utworzenie obrazu z uwzględnieniem min i max T
+                    tempArray2Img.CreateImageScalable(fileOperations.tempArrayDouble, temperatureArrayOperations.minT, temperatureArrayOperations.maxT);
+
 
                     // Stworzenie pola do rysowania miniatury obrazu
                     PictureBoxIpl pictureBoxIpll = new PictureBoxIpl
@@ -165,7 +197,7 @@ namespace WindowsFormsApp
                     pictureBoxIpll_Click(sender2, e2, filePath, imageOperations));
 
                     // Dodanie obrazu do pola miniatury
-                    pictureBoxIpll.ImageIpl = imageOperations.imageColor;
+                    pictureBoxIpll.ImageIpl = tempArray2Img.imageColor;
 
                     // Stworzenie labbelu z nazwą pliku obrazu
                     Label label = new Label();
@@ -187,45 +219,67 @@ namespace WindowsFormsApp
                 }
              
             }// END FOREACH
-
+            */
+            #endregion
             //Thread thread = new Thread(UpdateThread);
             //thread.Start();
         }
 
 
-        private void pictureBoxIplSubDir_Click(object senderSubDir, EventArgs eSubDir, string subDir)
+        private void pictureBoxIplSubDir_Click(object senderSubDir, EventArgs eSubDir, string subDir, GUIElements gUIElements)
         {
-            currentPath = subDir;
+            Console.Write("Chosen dir: ");
+            Console.WriteLine(gUIElements.chosenDir);
+            currentPath = gUIElements.chosenDir;
             LoadViewer();
-
         }
 
-        private void TrackBar1_ValueChanged(object sender, EventArgs e, string filePath)
+
+        private void pictureBoxIpll_Click2(object sender, EventArgs e, string filePath, ImageOperations imageOperations, GUIElements gUIElements)
         {
+            trackbarWithLabel1.Trackbar.Value = 0;
+            tempArrayD = gUIElements.tempArrayD;
+            imagesList2 = gUIElements.imagesList2;
+            pictureBoxIpl1.ImageIpl = gUIElements.imagesList2[0];
+            trackbarWithLabel1.Trackbar.Maximum = gUIElements.imagesList2.Count - 1;
+            labelFile.Text = new DirectoryInfo(gUIElements.openedFile).Name;
+        }
+
+
+
+        private void TrackBar1_ValueChanged(object sender, EventArgs e, GUIElements gUIElements)
+        {
+            Console.WriteLine(gUIElements.imagesList2.Count);
             // Warunek dzięki któremu ładowany jest obraz tylko przy zmianie wartości
             // Bez tego kilka razy został ładowany obraz na PictureBox
             if (trackbarLastVal != trackbarWithLabel1.Trackbar.Value)
             {
                 trackbarLastVal = trackbarWithLabel1.Trackbar.Value;
-               //  Console.WriteLine("Trackbar val changed: ");
-                // Console.WriteLine(trackbarWithLabel1.Trackbar.Value);
-                if (imagesList2.Count >= trackbarWithLabel1.Trackbar.Value)
-                    pictureBoxIpl1.ImageIpl = imagesList2[trackbarWithLabel1.Trackbar.Value];
-               // pictureBoxIpl1.Refresh();
+                //if (trackbarWithLabel1.Trackbar.Value <= gUIElements.imagesList2.Count-1)
+                if (trackbarWithLabel1.Trackbar.Value <= imagesList2.Count - 1)
+                    if (trackbarWithLabel1.Trackbar.Value >= 0)
+                    {
+                        // pictureBoxIpl1.ImageIpl = gUIElements.imagesList2[trackbarWithLabel1.Trackbar.Value];
+                        pictureBoxIpl1.ImageIpl = imagesList2[trackbarWithLabel1.Trackbar.Value];
+                    }
+                pictureBoxIpl1.Refresh();
             }
         }
 
 
-        
 
-        
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBoxIpll_Click(object sender, EventArgs e, string filePath,  ImageOperations imageOperations)
+
+
+        #region OLD
+        private void pictureBoxIpll_Click(object sender, EventArgs e, string filePath, ImageOperations imageOperations, GUIElements gUIElements)
         {
 
             pictureBoxIpl1.Image = imageLoading.GetThumbnailImage(480, 360, null, IntPtr.Zero);
@@ -237,15 +291,18 @@ namespace WindowsFormsApp
             imagesList2.Clear();
             tempArrayD.Clear();
 
-          //  Console.Write("Index: ");
-           // Console.WriteLine(fileIndex);
+            #region ConsoleWrite
+            //  Console.Write("Index: ");
+            // Console.WriteLine(fileIndex);
 
-           // Console.WriteLine("File: ");
-           // Console.WriteLine(filePath);
-
+            // Console.WriteLine("File: ");
+            // Console.WriteLine(filePath);
+            #endregion
             FileOperations fileOperations = new FileOperations();
+            TemperatureArrayOperations temperatureArrayOperations = new TemperatureArrayOperations();
+            TempArray2Img tempArray2Img = new TempArray2Img();
 
-           // Console.WriteLine("Liczba obrazów: ");
+            // Console.WriteLine("Liczba obrazów: ");
 
             // odczytanie plików i utworzenie kolekcji obrazów w formacie string
             List<string> imagesStringList = new List<string>();
@@ -265,10 +322,11 @@ namespace WindowsFormsApp
             {
                 fileOperations.OperationsOnReadedFile(image);
 
-                tempArrayD.Add(fileOperations.liczba2);
-                imageOperations.FindMinMaxTemp(fileOperations.liczba2);
-                minT.Add(imageOperations.minT);
-                maxT.Add(imageOperations.maxT);
+                tempArrayD.Add(fileOperations.tempArrayDouble);
+                temperatureArrayOperations.FindMinMaxTemp(fileOperations.tempArrayDouble);
+                minT.Add(temperatureArrayOperations.minT);
+                maxT.Add(temperatureArrayOperations.maxT);
+
             }
 
             // Znalezienie największej różnicy temperatur dla całej sekwencji
@@ -277,7 +335,7 @@ namespace WindowsFormsApp
             double zakresTemp = 0;
             for (int i = 0; i < imagesStringList.Count; i++)
             {
-                if (maxT[i]-minT[i]>0)
+                if (maxT[i] - minT[i] > 0)
                 {
                     zakresTemp = maxT[i] - minT[i];
                     min = minT[i];
@@ -288,28 +346,27 @@ namespace WindowsFormsApp
             // Utworzenie koelkcji obrazów kolorowych
             for (int i = 0; i < imagesStringList.Count; i++)
             {
-                imageOperations.CreateImageScalable(tempArrayD[i], min, max);
-                imageOperations.CreatePseudoColorImage();
-                imageOperations.ResizeForShow(3, 3);
-                imagesList2.Add(imageOperations.imageColor);
-
+                tempArray2Img.CreateImageScalable(tempArrayD[i], min, max);
+                tempArray2Img.imageColor = imageOperations.ResizeForShow(tempArray2Img.imageColor, 3, 3);
+                imagesList2.Add(tempArray2Img.imageColor);
             }
 
             // Wyświetlenie pierwszego obrazu z kolekcji
-            pictureBoxIpl1.ImageIpl = imagesList2[0];
+            //pictureBoxIpl1.ImageIpl = imagesList2[0];
+
             pictureBoxIpl1.Refresh();
-           // Console.WriteLine("Ilosc wczytanych obrazów: ");
-           // Console.WriteLine(imagesStringList.Count);
-           // Ustawienie trackbara
+            // Console.WriteLine("Ilosc wczytanych obrazów: ");
+            // Console.WriteLine(imagesStringList.Count);
+            // Ustawienie trackbara
             trackbarWithLabel1.Trackbar.Maximum = fileOperations.GetNumerOfImages(filePath) - 1;
         }
-
+        #endregion
         private void buttonUpperFolder_Click(object sender, EventArgs e)
         {
-            FileOperations fileOperations = new FileOperations();
-            currentPath = fileOperations.GetUpperDirectory(currentPath);
-           // Console.WriteLine("Path z przycisku: ");
-           // Console.WriteLine(currentPath);
+            DirOperations dirOperations = new DirOperations();
+            currentPath = dirOperations.GetUpperDirectory(currentPath);
+            // Console.WriteLine("Path z przycisku: ");
+            // Console.WriteLine(currentPath);
             LoadViewer();
         }
 
@@ -319,13 +376,7 @@ namespace WindowsFormsApp
             dirs = System.IO.Directory.GetLogicalDrives();
             currentPath = dirs[comboBox1.SelectedIndex];
             LoadViewer();
-            // Console.WriteLine("Index :");
-            // Console.WriteLine(comboBox1.SelectedIndex);
-            // Console.WriteLine("Dir :");
-            // Console.WriteLine(currentPath);
-            // Console.WriteLine(comboBox1.SelectedItem);
         }
-
 
 
         /// <summary>
@@ -335,20 +386,22 @@ namespace WindowsFormsApp
         /// <param name="e">Mouse Params</param>
         private void pictureBoxIpl1_MouseMove(object sender, MouseEventArgs e)
         {
+            #region ConsoleWriteMouseOnPictureBox_Location
             //Console.Write("X = ");
             //  Console.WriteLine(e.X);
             //  Console.Write("Y = ");
             //   Console.WriteLine(e.Y);
-            if (tempArrayD.Count>0)
+            #endregion
+            if (tempArrayD.Count > 0)
             {
                 double[,] temps = tempArrayD[trackbarWithLabel1.Trackbar.Value];
                 try
                 {
-                    if (( (e.X ) <=480 ) && ((e.Y ) <= 360))
+                    if (((e.X) <= 480) && ((e.Y) <= 360))
                     {
-                        int posX = Convert.ToInt16( Math.Floor(e.X / 3.0) );
+                        int posX = Convert.ToInt16(Math.Floor(e.X / 3.0));
                         int posY = Convert.ToInt16(Math.Floor(e.Y / 3.0));
-                        labelTemp.Text = Convert.ToString( temps[ posX,posY] );
+                        labelTemp.Text = Convert.ToString(temps[posX, posY]);
                         //  Console.WriteLine(posX);
                         //  Console.Write("Temp = ");
                         //  Console.WriteLine(temps[e.X / 3, e.Y / 3]);
@@ -361,14 +414,14 @@ namespace WindowsFormsApp
 
         public void TestDirectSdk()
         {
-            
+
             IrDirectInterface _irDirectInterface;
             _irDirectInterface = IrDirectInterface.Instance;
             _irDirectInterface.Connect("generic.xml");
-            
+
             ThermalPaletteImage images = _irDirectInterface.GetThermalPaletteImage();
-            ushort[,] thermals =  images.ThermalImage;
-           // _irDirectInterface.
+            ushort[,] thermals = images.ThermalImage;
+            // _irDirectInterface.
 
             int rows = images.ThermalImage.GetLength(0);
             int columns = images.ThermalImage.GetLength(1);

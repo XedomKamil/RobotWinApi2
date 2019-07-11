@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Blink1"
+    "\\Blink1\\readme",
+    "\\Common",
+    "\\CommonTest"
   ],
+  "SelectedNode": "\\Common",
   "PreviewInSolutionExplorer": false
 }

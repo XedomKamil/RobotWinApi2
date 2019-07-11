@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Common;
-using OpenCvSharp;
+//using OpenCvSharp;
 
 namespace CommonTest
 {
@@ -29,6 +29,7 @@ namespace CommonTest
         public void TestMethodOLD()
 
         {
+            /*
             FileOperations fileOperations = new FileOperations();
             ImageOperations imageOperations = new ImageOperations();
 
@@ -38,6 +39,7 @@ namespace CommonTest
             imageOperations.CreateImage(fileOperations.liczba2);
             Console.WriteLine(imageOperations.imageGray.Size());
             Console.WriteLine(imageOperations.imageGray.Data);
+            */
         }
 
     }

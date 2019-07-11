@@ -12,6 +12,7 @@ namespace CommonTest
         [TestMethod]
         public void TestMethod1()
         {
+            /*
             // Stwóz
             FileOperations fileOperations = new FileOperations();
             // Przelicz
@@ -40,6 +41,7 @@ namespace CommonTest
             {
                 Console.WriteLine(item);
             }
+            */
 
         }
     }

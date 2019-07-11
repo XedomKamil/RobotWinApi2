@@ -12,6 +12,7 @@ namespace CommonTest
         [TestMethod]
         public void TestMethod1()
         {
+            /*
             FileOperations fileoOperations = new FileOperations();
             List<DriveInfo> driveInfos = new List<DriveInfo>();
             driveInfos = fileoOperations.LoadDrives();
@@ -30,6 +31,7 @@ namespace CommonTest
             {
                 Console.WriteLine(dir);
             }
+            */
         }
     }
 }

@@ -10,6 +10,8 @@ namespace CommonTest
         [TestMethod]
         public void TestMethod1()
         {
+
+            /*
             string path = (@"E:\PBL\Prof Białecki Programy\wetransfer-9d2a73\Nowy folder\view frame\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\");
 
             FileOperations fileOperations = new FileOperations();
@@ -36,7 +38,7 @@ namespace CommonTest
             }
 
 
-
+    */
 
         }
     }

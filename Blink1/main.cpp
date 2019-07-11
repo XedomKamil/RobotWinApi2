@@ -39,8 +39,8 @@ int main(void)
 	cout << "\nIR DAEMON: ";
 	cout << evo_irimager_daemon_is_running();
 	*/
-	UART _uart;
-	_uart.sendSerial(55);
+	//UART _uart;
+	//_uart.sendSerial(55);
 	
 	
 
@@ -50,13 +50,14 @@ int main(void)
 	IRDeviceParams params;
 	IRDeviceParamsReader::readXMLC("14010049.xml", params);
 	IRDeviceParams_Print(params);
+	//params.bufferQueueSize = 1;
 	_daemon = new IRDaemon();
 
 	_daemon->run(&params, DIRECT_DAEMON_PORT);
 	
-	_daemon->exit();
-	_daemon->~IRDaemon();
+	//_daemon->exit();
+	//_daemon->~IRDaemon();
 
-	getchar();
+	//getchar();
 	return 0;
 }
