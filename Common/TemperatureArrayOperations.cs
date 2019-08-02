@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OpenCvSharp;
+using System;
 
 namespace Common
 {
@@ -52,8 +49,8 @@ namespace Common
                         if (tempT > max) { max = tempT; }
                     }
                 }
-                this.minT = min;
-                this.maxT = max;
+                minT = min;
+                maxT = max;
             }
             catch { }
 
@@ -67,9 +64,9 @@ namespace Common
         public double[,] Transpose(double[,] TempArray)
         {
             double[,] TempArrayT = new double[161, 121];
-            for (int j = 0; j <= 160; j++)
+            for (int i = 0; i <= 160; i++)
             {
-                for (int i = 0; i <= 120; i++)
+                for (int j = 0; j <= 120; j++)
                 {
                     TempArrayT[j, i] = TempArray[i, j];
 
@@ -78,6 +75,35 @@ namespace Common
             return TempArrayT;
         }
 
+
+        public Mat Threshold(double[,] tempD, double thd)
+        {
+           // Mat imgThresh = new Mat(new OpenCvSharp.Size(161, 121), MatType.CV_8U, new Scalar(1));
+            Mat imgThresh = Mat.Zeros(new OpenCvSharp.Size(161, 121), MatType.CV_8U);
+
+            double[,] ThresHolded = new double[161, 121];
+            for (int i = 0; i <= 160; i++)
+            {
+                for (int j = 0; j <= 120; j++)
+                {
+                    if (tempD[i, j] < thd)
+                    {
+                        ThresHolded[i, j] = 0;
+                        imgThresh.Set<byte>(j, i, Convert.ToByte(0));
+                    }
+                    else
+                    {
+                        ThresHolded[i, j] = 255;
+                        imgThresh.Set<byte>(j, i, Convert.ToByte(255));
+                    }
+
+                }
+            }
+            return imgThresh;
+            System.Console.WriteLine(ThresHolded[94,75]);
+
+
+        }
 
         private double MinT;
         public double minT

@@ -71,13 +71,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="TCP.cpp" />
-    <ClCompile Include="UART.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
-    <ClInclude Include="TCP.h" />
-    <ClInclude Include="UART.h" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <ClCompile />

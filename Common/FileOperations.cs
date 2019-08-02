@@ -1,17 +1,25 @@
-﻿using OpenCvSharp;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text.RegularExpressions;
+using System.Text;
 
 namespace Common
 {
     public class FileOperations
     {
-
-
-
+        public int getNumOfLines(string filePath)
+        {
+            var lineCount = 0;
+            using (var reader = File.OpenText(filePath))
+            {
+                while (reader.ReadLine() != null)
+                {
+                    lineCount++;
+                }
+            }
+            return lineCount;
+        }
         public List<string> ReadSingleLine(string filePath)
         {
             imagesList = new List<string>();
@@ -23,7 +31,17 @@ namespace Common
             return imagesList;
         }
 
-            public List<string> ReadAllLines(string filePath)
+
+
+        public List<string> ReadSpecifiedLine(string filePath, int i)
+        {
+            imagesList = new List<string>();
+            string line = File.ReadLines(filePath).Skip(i - 1).Take(1).First();
+            imagesList.Add(line);
+            return imagesList;
+        }
+
+        public List<string> ReadAllLines(string filePath)
         {
             imagesList = new List<string>();
             var lineCount = 0;
@@ -85,7 +103,7 @@ namespace Common
             {
                 for (int j = 0; j <= 120; j++)
                 {
-                    this.tempArrayDouble[i, j] = Convert.ToDouble(imageString[pixel]);
+                    tempArrayDouble[i, j] = Convert.ToDouble(imageString[pixel]);
                     pixel++;
                 }
             }
@@ -108,7 +126,7 @@ namespace Common
         public double[,] Transpose(double[,] TempArray)
         {
             double[,] TempArrayT = new double[161, 121];
-           for (int j = 0; j <= 160; j++)
+            for (int j = 0; j <= 160; j++)
             {
                 for (int i = 0; i <= 120; i++)
                 {
@@ -120,6 +138,26 @@ namespace Common
             return TempArrayT;
         }
 
+        public void SaveArrayToFile(double[,] temps)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            for (int j = 0; j < 160; j++)
+            {
+                for (int i = 0; i < 120; i++)
+                {
+                    stringBuilder.Append(temps[i, j]);
+                    stringBuilder.Append(" ");
+                }
+                stringBuilder.Append(": ");
+            }
+            stringBuilder.Append(";");
+            using (System.IO.StreamWriter file =
+            new System.IO.StreamWriter(@"temp22.txt", true))
+            {
+                file.WriteLine(stringBuilder);
+            }
+
+        }
 
 
 

@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿using Common;
+using System;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Common;
-using Common.irDirectBinding;
-
-using OpenCvSharp;
 
 /// <summary>
 /// Dopisac zapisywanie pliku na dysku
@@ -25,9 +15,10 @@ namespace TCPCONNECT
     {
         double min;
         double max;
-
+        bool recording;
         public Form1()
         {
+            recording = false;
             InitializeComponent();
             //  CamreaThread();
             min = 20;
@@ -50,7 +41,7 @@ namespace TCPCONNECT
             camThd.Start();
         }
 
-        public void trackar1ValChanger(object sender, EventArgs e )
+        public void trackar1ValChanger(object sender, EventArgs e)
         {
             min = trackbarWithLabel1.Trackbar.Value;
 
@@ -71,42 +62,67 @@ namespace TCPCONNECT
             TemperatureArrayOperations temperatureArrayOperations =
                 new TemperatureArrayOperations();
 
-            IrDirectInterface irDirectInterface;
-            irDirectInterface = IrDirectInterface.Instance;
- 
-            irDirectInterface.Connect("192.168.0.100", 1337);
-            irDirectInterface.SetRadiationParameters(0.78f, 1.0f);
+
+
+            //IrDirectInterface irDirectInterface;
+            //irDirectInterface = IrDirectInterface.Instance;
+            //irDirectInterface.Connect("192.168.0.100", 1337);
+            //irDirectInterface.SetRadiationParameters(0.78f, 1.0f);
             while (true)
             {
 
                 //////  SZTUCZNA TABLICA
-                
-                ushort[,] temps;
-                temps = new ushort[160, 120];
-                for (int j = 0; j < 120; j++)
-                {
-                    for (int i = 0; i < 160; i++)
-                    {
-                        temps[i, j] = (ushort)1275;
+                Random rd = new Random();
 
+                ushort[,] temps;
+                temps = new ushort[120, 160];
+                for (int j = 0; j < 160; j++)
+                {
+                    for (int i = 0; i < 120; i++)
+                    {
+                        //temps[i, j] = (ushort)1275;
+                        temps[i, j] = (ushort)rd.Next(1250, 1300);
                     }
                 }
-                
+
+                if (recording)
+                {
+                    fileOperations.SaveArrayToFile(temps);
+                }
+
+
 
                 double[,] tempArray;
                 //ushort[,] temps = irDirectInterface.GetThermalImage();
 
                 tempArray = temperatureArrayOperations.UshortToDouble(temps);
-                tempArray2Img.CreateImageScalable2(tempArray, min,max);
+                tempArray2Img.CreateImageScalable2(tempArray, min, max);
 
                 //   Cv2.ImShow("ss", imageOperations.imageColor);
                 //  Cv2.ImShow("ss2", imageOperations.imageGray);
-                tempArray2Img.imageColor = imageOperations.ResizeForShow(tempArray2Img.imageColor ,2, 2);
+                tempArray2Img.imageColor = imageOperations.ResizeForShow(tempArray2Img.imageColor, 2, 2);
                 pictureBoxIpl1.ImageIpl = tempArray2Img.imageColor;
 
-                Thread.Sleep(60);
+                Thread.Sleep(100);
             }
         }
 
+        private void bRecord_Click(object sender, EventArgs e)
+        {
+            recording = !recording;
+            Console.WriteLine(recording);
+        }
     }
+
+
+
+
+
+
+
+
+
+
+
+
 }

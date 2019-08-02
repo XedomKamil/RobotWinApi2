@@ -7,8 +7,7 @@
 #include <libirimager/IRLogger.h>
 #include "libirimager/IRDaemon.h"
 
-#include "TCP.h"
-#include "UART.h"
+
 
 using namespace std;
 using namespace evo;

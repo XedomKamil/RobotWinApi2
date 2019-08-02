@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Blink1\\readme",
-    "\\Common",
-    "\\CommonTest"
+    "\\WindowsFormsApp3"
   ],
-  "SelectedNode": "\\Common",
+  "SelectedNode": "\\WindowsFormsApp3\\FormMain.resx",
   "PreviewInSolutionExplorer": false
 }

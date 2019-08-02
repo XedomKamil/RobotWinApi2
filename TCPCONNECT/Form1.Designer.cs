@@ -31,6 +31,7 @@
             this.pictureBoxIpl1 = new OpenCvSharp.UserInterface.PictureBoxIpl();
             this.trackbarWithLabel1 = new OpenCvSharp.UserInterface.TrackbarWithLabel();
             this.trackbarWithLabel2 = new OpenCvSharp.UserInterface.TrackbarWithLabel();
+            this.bRecord = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIpl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,11 +59,22 @@
             this.trackbarWithLabel2.Size = new System.Drawing.Size(728, 65);
             this.trackbarWithLabel2.TabIndex = 2;
             // 
+            // bRecord
+            // 
+            this.bRecord.Location = new System.Drawing.Point(581, 45);
+            this.bRecord.Name = "bRecord";
+            this.bRecord.Size = new System.Drawing.Size(150, 55);
+            this.bRecord.TabIndex = 3;
+            this.bRecord.Text = "Start";
+            this.bRecord.UseVisualStyleBackColor = true;
+            this.bRecord.Click += new System.EventHandler(this.bRecord_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(858, 700);
+            this.Controls.Add(this.bRecord);
             this.Controls.Add(this.trackbarWithLabel2);
             this.Controls.Add(this.trackbarWithLabel1);
             this.Controls.Add(this.pictureBoxIpl1);
@@ -78,6 +90,7 @@
         private OpenCvSharp.UserInterface.PictureBoxIpl pictureBoxIpl1;
         private OpenCvSharp.UserInterface.TrackbarWithLabel trackbarWithLabel1;
         private OpenCvSharp.UserInterface.TrackbarWithLabel trackbarWithLabel2;
+        private System.Windows.Forms.Button bRecord;
     }
 }
 
